@@ -3,3 +3,6 @@
 	height: auto;
 	margin: 0 auto;
 }
+.hidden{
+	opacity: 0;
+}
