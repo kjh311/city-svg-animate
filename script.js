@@ -30,4 +30,10 @@ $( document ).ready(function() {
     	var bl = new TimelineMax();
     	bl.staggerFrom('.window', 0.2, {scaleY: 0, delay: 2.4}, -0.05)
 
+
+
+        $('.button').click(function(){
+            location.reload();        
+        });
+
     });
